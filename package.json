@@ -1,0 +1,8 @@
+{
+  "name":"streamtube",
+  "version":"1.0.1",
+  "private":true,
+  "description":"StreamTube - YouTube search and official embedded playback on Cloudflare Workers",
+  "scripts":{"deploy":"wrangler deploy index.js --name streamtube --compatibility-date 2026-10-01","dev":"wrangler dev index.js"},
+  "devDependencies":{"wrangler":"^4.146.0"}
+}
